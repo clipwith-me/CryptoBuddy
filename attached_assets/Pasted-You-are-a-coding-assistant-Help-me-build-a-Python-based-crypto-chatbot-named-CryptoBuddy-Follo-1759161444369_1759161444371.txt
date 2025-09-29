@@ -1,0 +1,80 @@
+You are a coding assistant. Help me build a **Python-based crypto chatbot** named CryptoBuddy. Follow these steps and create a working chatbot:
+
+1. **Bot Personality**
+   - Name: CryptoBuddy
+   - Tone: Friendly, approachable, slightly playful.
+   - Sample greeting: "Hey there! Let’s find you a green and growing crypto!"
+
+2. **Predefined Crypto Data**
+   - Use this dataset:
+   
+```python
+crypto_db = {
+    "Bitcoin": {
+        "price_trend": "rising",
+        "market_cap": "high",
+        "energy_use": "high",
+        "sustainability_score": 3/10
+    },
+    "Ethereum": {
+        "price_trend": "stable",
+        "market_cap": "high",
+        "energy_use": "medium",
+        "sustainability_score": 6/10
+    },
+    "Cardano": {
+        "price_trend": "rising",
+        "market_cap": "medium",
+        "energy_use": "low",
+        "sustainability_score": 8/10
+    }
+}
+Chatbot Logic
+
+Accept user input as text.
+
+Respond to questions like:
+
+"Which crypto is trending up?"
+
+"What’s the most sustainable coin?"
+
+Use if-else statements or functions to select crypto based on user queries.
+
+Include advice rules:
+
+Profitability: prioritize price_trend = "rising" and market_cap = "high".
+
+Sustainability: prioritize energy_use = "low" and sustainability_score > 7/10.
+
+Sample Conversation
+
+python
+Copy code
+User: Which crypto should I buy for long-term growth?
+CryptoBuddy: Cardano (ADA) is trending up and has a top-tier sustainability score! 🚀
+Optional Stretch Goals
+
+Integrate CoinGecko API for real-time data.
+
+Use NLTK to handle natural language queries.
+
+Add a disclaimer: "Crypto is risky—always do your own research!"
+
+Submission Requirements
+
+Create a GitHub repo with .py file(s) and an Intro README.
+
+Include screenshots of the chatbot running.
+
+Record a 30-second demo of interacting with the chatbot.
+
+Write a 50-word summary explaining: "How does this chatbot mimic basic AI decision-making?"
+
+Instructions
+
+Keep the code simple, readable, and commented.
+
+Ensure chatbot can run in Replit.
+
+Focus on logic + creativity, not complex math.
